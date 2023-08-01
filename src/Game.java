@@ -13,14 +13,14 @@ public class Game extends JPanel implements ActionListener {
     private Timer timer;
     private boolean gameOver;
 
-    private static final int PADDLE_SPEED = 10;
+    private static final int PADDLE_SPEED = 12;
     private static final int PADDLE_WIDTH = 80;
     private static final int PADDLE_HEIGHT = 25;
     private static final int ROCK_SIZE = 30;
-    private static final int ROCK_SPEED = 3;
+    private static final int ROCK_SPEED = 10;
     private static final int TIMER_DELAY = 10;
-    private static final int WINDOW_WIDTH = 800;
-    private static final int WINDOW_HEIGHT = 800;
+    private static final int WINDOW_WIDTH = 900;
+    private static final int WINDOW_HEIGHT = 900;
 
     public Game() {
         paddleX = WINDOW_WIDTH / 2 - PADDLE_WIDTH / 2;
